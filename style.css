@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap');
+
+*{
+font-family: 'Hind Siliguri' sans-serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(79, 76, 76);
+}
+
+.wrapper{
+width: 450px;
+padding: 20px;
+background-color: rgb(161, 159, 159);
+border-radius: 20px;
+box-shadow: -5px 5px 5px 0px rgba(0, 0, 0,0.75);
+}
+
+.wrapper .upload-box{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    border: 2px dashed rgb(209, 202, 202);
+    border-radius: 10px;
+    margin: 15px auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+.active .upload-box{
+    border: none;
+    
+}
+
+.active .upload-box svg{
+    display: none;
+}
+
+.upload-box label{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+.active .upload-box label{
+    display: none;
+}
+.active .upload-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content:space-between;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.row .colum{
+    width: calc(100%/2 -15px);
+}
+
+.sizes .colum input{
+    width: 90%;
+    height: 45px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 1rem;
+    outline: none;
+    border: 2px solid salmon;
+    color:rgb(80, 78, 78);
+    opacity:0.60;
+    border-radius: 5px;
+    cursor:text;
+}
+
+.sizes .colum input:focus{
+    padding: 0 14px;
+    border: 3px solid rgb(166, 236, 204);
+}
+
+.checkbox .colum{
+    display:flex;
+    align-items: center;
+}
+
+.checkbox .colum input{
+    width: 17px;
+    height: 17px;
+    accent-color:rgb(166, 236, 204) ;
+    margin-right: 10px;
+}
+
+.download-button{
+display: flex;
+width: 100%;
+padding: 15px 0px;
+margin: 30px 0px 10px;
+font-size: 1.2rem;
+outline: none;
+border: none;
+border-radius: 5px;
+color: white;
+background-color: green;
+justify-content: center;
+cursor: pointer;
+text-transform: uppercase;
+transition-duration: .7s;
+}
+
+.download-button:active{
+    background-color: blue;
+}
