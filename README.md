@@ -2,8 +2,7 @@
 
 A clean, responsive web application that allows users to upload, resize, and compress images directly in their browser. 
 
-![Project Preview](https://github.com/himanhsu06s/Resize-and-compress-image-web/raw/main/preview.png) *(Note: Please update this link with an actual screenshot of your app once uploaded)*
-
+![Project Preview](https://github.com/himanhsu06s/Resize-and-compress-image-web/raw/main/preview.png)
 ## 🚀 Features
 
 - **Instant Preview**: See your image as soon as you upload it.
